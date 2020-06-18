@@ -1,13 +1,11 @@
 name: "Code scanning - action"
 
 on:
-  push:
   pull_request:
-  schedule:
-    - cron: '0 21 * * 0'
 
 jobs:
   CodeQL-Build:
+
 
     runs-on: ubuntu-latest
 
